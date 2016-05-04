@@ -248,7 +248,7 @@ local function show_group_settingsmod(msg, data, target)
     	leave_ban = data[tostring(msg.to.id)]['settings']['leave_ban']
    	end
   local settings = data[tostring(target)]['settings']
-  local text = "Group settings :\n_____________________\n>lock group name : "..settings.lock_name.."\n>lock group photo : "..settings.lock_photo.."\n>lock group member : "..settings.lock_member.."\n>lock leave : "..settings.leave_ban.."\n>lock arabic : "..settings.lock_arabic.."\n>lock english : "..settings.lock_english.."\n>lock chat : "..settings.lock_chat.."\n>lock join : "..settings.lock_join.."\n>lock tag : "..settings.antitag.."\n>lock link : "..settings.lock_ads.."\n>lock fosh : "..settings.antifosh.."\n>lock media : "..settings.antimedia.."\n>lock persian : "..settings.antifa.."\n>lock flood : "..settings.flood.."\n>flood sensitivity : "..NUM_MSG_MAX.."\n>Bot protection : "..bots_protection.."\n_____________________\n>>bot version : v5.5<<\n>>>\\shield//<<<\n>>@shieldTM<<"
+  local text = "Group settings :\n\n>lock group name : "..settings.lock_name.."\n>lock group photo : "..settings.lock_photo.."\n>lock group member : "..settings.lock_member.."\n>lock group leave : "..settings.leave_ban.."\n>lock group arabic : "..settings.lock_arabic.."\n>lock group english : "..settings.lock_english.."\n>lock group chat : "..settings.lock_chat.."\n>lock group join : "..settings.lock_join.."\n>lock group tag : "..settings.antitag.."\n>lock group link : "..settings.lock_ads.."\n>lock group fosh : "..settings.antifosh.."\n>lock group media : "..settings.antimedia.."\n>lock group persian : "..settings.antifa.."\n>lock group flood : "..settings.flood.."\n>flood group sensitivity : "..NUM_MSG_MAX.."\n>Bot group protection : "..bots_protection.."
   return text
 end
 
