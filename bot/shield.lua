@@ -253,22 +253,19 @@ function create_config( )
     "echo",
     "fohsh"
     },
-    sudo_users = {119650184,156823206,80182995},--Sudo users
+    sudo_users = {147237496},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-    shield bot 5.5
+    Soft Antispam v1.1
     
      Hello my Good friends 
      
    〰〰〰〰〰〰〰〰
-   ߔࠀ   founder : @hafez1116hafez
-   ߔࠀ   sudo : @amirho3ein911
-   ߔࠀ   sudo: @RedCross_king
-   〰〰〰〰〰〰〰〰
-  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
-   تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
-   !feedback (نظر خود )
+   Bot id : @Soft_TG
+   Admin id : @Mohammad_NBG
+   
+ 
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -333,6 +330,7 @@ Commands list :
 !unban [id]
 میتوانید با رپلای هم انجام دهیدn
 !who
+
 اعضای گروه
 !modlist
 لیست ادمین ها
@@ -390,8 +388,6 @@ return گرفتن ایدی گروه
 نمایش دستورات اجرایی مدیرها
 !tagall (text)
 صداکردن همه اعضا
-!feedback (text)
-ارسال نظر خود یا پیشنهاد مستقیم به مدیرربات
 !google (text)
 جست و جوی مستقیم در گوگل
 !sticker [warn-kick-ok]
@@ -404,8 +400,7 @@ return گرفتن ایدی گروه
 ارسال سریع لینک در پیوی شما
 !kickinactive
 حذف خودکار کسانی که در گروه فعالیت ندارند
-!invamir | !invhafez | !invmostafa
-در صورت مشکل هر ادمینی انلاین بود بزنین بات ادد می کنه
+
 --------------------------------
 برای اجرای دستور میتوانید از ! و / استفاده کنید
 دستورات بدون علامت هم کار میکنند
