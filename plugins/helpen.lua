@@ -102,7 +102,7 @@ ok : send sticker open
 tag users && send your message
 〰〰〰〰〰〰
 !Soft
-send about shield
+send about Soft TG
 〰〰〰〰〰〰
 !all
 see all about group
